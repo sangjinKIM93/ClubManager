@@ -15,6 +15,9 @@
 		482C0BC12B25E02D006EDAC8 /* ClubManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482C0BC02B25E02D006EDAC8 /* ClubManagerUITests.swift */; };
 		482C0BC32B25E02D006EDAC8 /* ClubManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482C0BC22B25E02D006EDAC8 /* ClubManagerUITestsLaunchTests.swift */; };
 		482C0BD42B25E19B006EDAC8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482C0BD32B25E19B006EDAC8 /* LoginView.swift */; };
+		A5EC7D7BF82BE7262A04B166 /* Pods_ClubManagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A7A0CEFF616C7873FECB4A2 /* Pods_ClubManagerTests.framework */; };
+		F53A0FEB741E66AED28587B9 /* Pods_ClubManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CA1532728F1DF32F4009684 /* Pods_ClubManager.framework */; };
+		FB438B67B2450B41BBB51684 /* Pods_ClubManager_ClubManagerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 355DC2B5D7768381E6F16E1F /* Pods_ClubManager_ClubManagerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18ECCFD065744797D603CD6A /* Pods-ClubManager-ClubManagerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubManager-ClubManagerUITests.release.xcconfig"; path = "Target Support Files/Pods-ClubManager-ClubManagerUITests/Pods-ClubManager-ClubManagerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		24CF647605E4227D776D283F /* Pods-ClubManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubManager.release.xcconfig"; path = "Target Support Files/Pods-ClubManager/Pods-ClubManager.release.xcconfig"; sourceTree = "<group>"; };
+		355DC2B5D7768381E6F16E1F /* Pods_ClubManager_ClubManagerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClubManager_ClubManagerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		482C0BA22B25E027006EDAC8 /* ClubManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClubManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		482C0BA52B25E027006EDAC8 /* ClubManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubManagerApp.swift; sourceTree = "<group>"; };
 		482C0BA72B25E027006EDAC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +52,12 @@
 		482C0BC02B25E02D006EDAC8 /* ClubManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubManagerUITests.swift; sourceTree = "<group>"; };
 		482C0BC22B25E02D006EDAC8 /* ClubManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		482C0BD32B25E19B006EDAC8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5A7A0CEFF616C7873FECB4A2 /* Pods_ClubManagerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClubManagerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AB585AB5B69F41F1A1F2227 /* Pods-ClubManager-ClubManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubManager-ClubManagerUITests.debug.xcconfig"; path = "Target Support Files/Pods-ClubManager-ClubManagerUITests/Pods-ClubManager-ClubManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6357D06F2E4E92DF2FC4B9AB /* Pods-ClubManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubManagerTests.debug.xcconfig"; path = "Target Support Files/Pods-ClubManagerTests/Pods-ClubManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7CA1532728F1DF32F4009684 /* Pods_ClubManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClubManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		804294961A01999B4CB86114 /* Pods-ClubManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubManagerTests.release.xcconfig"; path = "Target Support Files/Pods-ClubManagerTests/Pods-ClubManagerTests.release.xcconfig"; sourceTree = "<group>"; };
+		F1C1F6B8B81D04B547C143CC /* Pods-ClubManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubManager.debug.xcconfig"; path = "Target Support Files/Pods-ClubManager/Pods-ClubManager.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F53A0FEB741E66AED28587B9 /* Pods_ClubManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5EC7D7BF82BE7262A04B166 /* Pods_ClubManagerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,12 +81,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB438B67B2450B41BBB51684 /* Pods_ClubManager_ClubManagerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42130C390C487EABDA432C7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1C1F6B8B81D04B547C143CC /* Pods-ClubManager.debug.xcconfig */,
+				24CF647605E4227D776D283F /* Pods-ClubManager.release.xcconfig */,
+				5AB585AB5B69F41F1A1F2227 /* Pods-ClubManager-ClubManagerUITests.debug.xcconfig */,
+				18ECCFD065744797D603CD6A /* Pods-ClubManager-ClubManagerUITests.release.xcconfig */,
+				6357D06F2E4E92DF2FC4B9AB /* Pods-ClubManagerTests.debug.xcconfig */,
+				804294961A01999B4CB86114 /* Pods-ClubManagerTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		482C0B992B25E027006EDAC8 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +109,8 @@
 				482C0BB52B25E02D006EDAC8 /* ClubManagerTests */,
 				482C0BBF2B25E02D006EDAC8 /* ClubManagerUITests */,
 				482C0BA32B25E027006EDAC8 /* Products */,
+				42130C390C487EABDA432C7D /* Pods */,
+				A93DE957377335A61C85B52F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,6 +177,16 @@
 			path = RegisterMyInfo;
 			sourceTree = "<group>";
 		};
+		A93DE957377335A61C85B52F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CA1532728F1DF32F4009684 /* Pods_ClubManager.framework */,
+				355DC2B5D7768381E6F16E1F /* Pods_ClubManager_ClubManagerUITests.framework */,
+				5A7A0CEFF616C7873FECB4A2 /* Pods_ClubManagerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -153,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 482C0BC62B25E02D006EDAC8 /* Build configuration list for PBXNativeTarget "ClubManager" */;
 			buildPhases = (
+				13DF722A2D85CEC8F4D37832 /* [CP] Check Pods Manifest.lock */,
 				482C0B9E2B25E027006EDAC8 /* Sources */,
 				482C0B9F2B25E027006EDAC8 /* Frameworks */,
 				482C0BA02B25E027006EDAC8 /* Resources */,
+				FD665E547AEC2D809F7ACBE9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 482C0BC92B25E02D006EDAC8 /* Build configuration list for PBXNativeTarget "ClubManagerTests" */;
 			buildPhases = (
+				FB4BBD8281D8675730748460 /* [CP] Check Pods Manifest.lock */,
 				482C0BAE2B25E02D006EDAC8 /* Sources */,
 				482C0BAF2B25E02D006EDAC8 /* Frameworks */,
 				482C0BB02B25E02D006EDAC8 /* Resources */,
@@ -188,9 +232,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 482C0BCC2B25E02D006EDAC8 /* Build configuration list for PBXNativeTarget "ClubManagerUITests" */;
 			buildPhases = (
+				F30FAC517770B7A00A4AD7AC /* [CP] Check Pods Manifest.lock */,
 				482C0BB82B25E02D006EDAC8 /* Sources */,
 				482C0BB92B25E02D006EDAC8 /* Frameworks */,
 				482C0BBA2B25E02D006EDAC8 /* Resources */,
+				AC3FEEBB5561D6FD51F29C14 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -270,6 +316,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13DF722A2D85CEC8F4D37832 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClubManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC3FEEBB5561D6FD51F29C14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClubManager-ClubManagerUITests/Pods-ClubManager-ClubManagerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClubManager-ClubManagerUITests/Pods-ClubManager-ClubManagerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClubManager-ClubManagerUITests/Pods-ClubManager-ClubManagerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F30FAC517770B7A00A4AD7AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClubManager-ClubManagerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB4BBD8281D8675730748460 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClubManagerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD665E547AEC2D809F7ACBE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClubManager/Pods-ClubManager-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClubManager/Pods-ClubManager-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClubManager/Pods-ClubManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		482C0B9E2B25E027006EDAC8 /* Sources */ = {
@@ -436,6 +585,7 @@
 		};
 		482C0BC72B25E02D006EDAC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1C1F6B8B81D04B547C143CC /* Pods-ClubManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,6 +615,7 @@
 		};
 		482C0BC82B25E02D006EDAC8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24CF647605E4227D776D283F /* Pods-ClubManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -494,6 +645,7 @@
 		};
 		482C0BCA2B25E02D006EDAC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6357D06F2E4E92DF2FC4B9AB /* Pods-ClubManagerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +666,7 @@
 		};
 		482C0BCB2B25E02D006EDAC8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 804294961A01999B4CB86114 /* Pods-ClubManagerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -534,6 +687,7 @@
 		};
 		482C0BCD2B25E02D006EDAC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AB585AB5B69F41F1A1F2227 /* Pods-ClubManager-ClubManagerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -552,6 +706,7 @@
 		};
 		482C0BCE2B25E02D006EDAC8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18ECCFD065744797D603CD6A /* Pods-ClubManager-ClubManagerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
