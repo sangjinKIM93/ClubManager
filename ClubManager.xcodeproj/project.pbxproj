@@ -15,6 +15,8 @@
 		482C0BC32B25E02D006EDAC8 /* ClubManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482C0BC22B25E02D006EDAC8 /* ClubManagerUITestsLaunchTests.swift */; };
 		482C0BD42B25E19B006EDAC8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482C0BD32B25E19B006EDAC8 /* LoginView.swift */; };
 		482C0BD92B25EBF9006EDAC8 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482C0BD82B25EBF9006EDAC8 /* Constant.swift */; };
+		48EF413B2B2601860063C44C /* AppleSignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EF413A2B2601860063C44C /* AppleSignInButton.swift */; };
+		48EF413D2B2602EE0063C44C /* KakaoSignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EF413C2B2602EE0063C44C /* KakaoSignInButton.swift */; };
 		A5EC7D7BF82BE7262A04B166 /* Pods_ClubManagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A7A0CEFF616C7873FECB4A2 /* Pods_ClubManagerTests.framework */; };
 		F53A0FEB741E66AED28587B9 /* Pods_ClubManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CA1532728F1DF32F4009684 /* Pods_ClubManager.framework */; };
 		FB438B67B2450B41BBB51684 /* Pods_ClubManager_ClubManagerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 355DC2B5D7768381E6F16E1F /* Pods_ClubManager_ClubManagerUITests.framework */; };
@@ -53,6 +55,9 @@
 		482C0BD32B25E19B006EDAC8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		482C0BD52B25E9AC006EDAC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		482C0BD82B25EBF9006EDAC8 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		48EF41392B2600D00063C44C /* ClubManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClubManager.entitlements; sourceTree = "<group>"; };
+		48EF413A2B2601860063C44C /* AppleSignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSignInButton.swift; sourceTree = "<group>"; };
+		48EF413C2B2602EE0063C44C /* KakaoSignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoSignInButton.swift; sourceTree = "<group>"; };
 		5A7A0CEFF616C7873FECB4A2 /* Pods_ClubManagerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClubManagerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AB585AB5B69F41F1A1F2227 /* Pods-ClubManager-ClubManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubManager-ClubManagerUITests.debug.xcconfig"; path = "Target Support Files/Pods-ClubManager-ClubManagerUITests/Pods-ClubManager-ClubManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6357D06F2E4E92DF2FC4B9AB /* Pods-ClubManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubManagerTests.debug.xcconfig"; path = "Target Support Files/Pods-ClubManagerTests/Pods-ClubManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +132,7 @@
 		482C0BA42B25E027006EDAC8 /* ClubManager */ = {
 			isa = PBXGroup;
 			children = (
+				48EF41392B2600D00063C44C /* ClubManager.entitlements */,
 				482C0BD52B25E9AC006EDAC8 /* Info.plist */,
 				482C0BD72B25EBEA006EDAC8 /* Common */,
 				482C0BD62B25EBAF006EDAC8 /* Resources */,
@@ -167,6 +173,8 @@
 			isa = PBXGroup;
 			children = (
 				482C0BD32B25E19B006EDAC8 /* LoginView.swift */,
+				48EF413A2B2601860063C44C /* AppleSignInButton.swift */,
+				48EF413C2B2602EE0063C44C /* KakaoSignInButton.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -443,7 +451,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				482C0BD42B25E19B006EDAC8 /* LoginView.swift in Sources */,
+				48EF413D2B2602EE0063C44C /* KakaoSignInButton.swift in Sources */,
 				482C0BA62B25E027006EDAC8 /* ClubManagerApp.swift in Sources */,
+				48EF413B2B2601860063C44C /* AppleSignInButton.swift in Sources */,
 				482C0BD92B25EBF9006EDAC8 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -606,6 +616,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ClubManager/ClubManager.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ClubManager/Preview Content\"";
@@ -625,7 +636,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ClubManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ClubManager.kor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -639,6 +650,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ClubManager/ClubManager.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ClubManager/Preview Content\"";
@@ -658,7 +670,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ClubManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ClubManager.kor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
