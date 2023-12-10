@@ -15,7 +15,12 @@ struct KakaoSignInButton: View {
             loginWithKakao()
         }, label: {
             Text("카카오 로그인")
+                .frame(height: 50)
+                .frame(maxWidth: .infinity)
+                .background(Color.yellow)
         })
+        .cornerRadius(6)
+        .padding(.horizontal, 20)
     }
     
     func loginWithKakao() {
