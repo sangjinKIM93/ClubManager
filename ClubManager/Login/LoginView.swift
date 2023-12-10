@@ -6,10 +6,32 @@
 //
 
 import SwiftUI
+import KakaoSDKAuth
+import KakaoSDKUser
 
 struct LoginView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: {
+            loginWithKakao()
+        }, label: {
+            Text("카카오 로그인")
+        })
+    }
+    
+    func loginWithKakao() {
+        if (UserApi.isKakaoTalkLoginAvailable()) {
+            UserApi.shared.loginWithKakaoTalk {(oauthToken, error) in
+                if let error = error {
+                    print(error)
+                }
+                else {
+                    print("loginWithKakaoTalk() success.")
+
+                   //let idToken = oAuthToken.idToken ?? ""
+                   //let accessToken = oAuthToken.accessToken
+                }
+            }
+        }
     }
 }
 

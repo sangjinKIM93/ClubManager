@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		482C0BA62B25E027006EDAC8 /* ClubManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482C0BA52B25E027006EDAC8 /* ClubManagerApp.swift */; };
-		482C0BA82B25E027006EDAC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482C0BA72B25E027006EDAC8 /* ContentView.swift */; };
 		482C0BAA2B25E02C006EDAC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 482C0BA92B25E02C006EDAC8 /* Assets.xcassets */; };
 		482C0BAD2B25E02C006EDAC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 482C0BAC2B25E02C006EDAC8 /* Preview Assets.xcassets */; };
 		482C0BB72B25E02D006EDAC8 /* ClubManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482C0BB62B25E02D006EDAC8 /* ClubManagerTests.swift */; };
 		482C0BC12B25E02D006EDAC8 /* ClubManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482C0BC02B25E02D006EDAC8 /* ClubManagerUITests.swift */; };
 		482C0BC32B25E02D006EDAC8 /* ClubManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482C0BC22B25E02D006EDAC8 /* ClubManagerUITestsLaunchTests.swift */; };
 		482C0BD42B25E19B006EDAC8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482C0BD32B25E19B006EDAC8 /* LoginView.swift */; };
+		482C0BD92B25EBF9006EDAC8 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482C0BD82B25EBF9006EDAC8 /* Constant.swift */; };
 		A5EC7D7BF82BE7262A04B166 /* Pods_ClubManagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A7A0CEFF616C7873FECB4A2 /* Pods_ClubManagerTests.framework */; };
 		F53A0FEB741E66AED28587B9 /* Pods_ClubManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CA1532728F1DF32F4009684 /* Pods_ClubManager.framework */; };
 		FB438B67B2450B41BBB51684 /* Pods_ClubManager_ClubManagerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 355DC2B5D7768381E6F16E1F /* Pods_ClubManager_ClubManagerUITests.framework */; };
@@ -43,7 +43,6 @@
 		355DC2B5D7768381E6F16E1F /* Pods_ClubManager_ClubManagerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClubManager_ClubManagerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		482C0BA22B25E027006EDAC8 /* ClubManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClubManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		482C0BA52B25E027006EDAC8 /* ClubManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubManagerApp.swift; sourceTree = "<group>"; };
-		482C0BA72B25E027006EDAC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		482C0BA92B25E02C006EDAC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		482C0BAC2B25E02C006EDAC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		482C0BB22B25E02D006EDAC8 /* ClubManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClubManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +51,8 @@
 		482C0BC02B25E02D006EDAC8 /* ClubManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubManagerUITests.swift; sourceTree = "<group>"; };
 		482C0BC22B25E02D006EDAC8 /* ClubManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		482C0BD32B25E19B006EDAC8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		482C0BD52B25E9AC006EDAC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		482C0BD82B25EBF9006EDAC8 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		5A7A0CEFF616C7873FECB4A2 /* Pods_ClubManagerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClubManagerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AB585AB5B69F41F1A1F2227 /* Pods-ClubManager-ClubManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubManager-ClubManagerUITests.debug.xcconfig"; path = "Target Support Files/Pods-ClubManager-ClubManagerUITests/Pods-ClubManager-ClubManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6357D06F2E4E92DF2FC4B9AB /* Pods-ClubManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubManagerTests.debug.xcconfig"; path = "Target Support Files/Pods-ClubManagerTests/Pods-ClubManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -98,7 +99,6 @@
 				6357D06F2E4E92DF2FC4B9AB /* Pods-ClubManagerTests.debug.xcconfig */,
 				804294961A01999B4CB86114 /* Pods-ClubManagerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -127,11 +127,12 @@
 		482C0BA42B25E027006EDAC8 /* ClubManager */ = {
 			isa = PBXGroup;
 			children = (
+				482C0BD52B25E9AC006EDAC8 /* Info.plist */,
+				482C0BD72B25EBEA006EDAC8 /* Common */,
+				482C0BD62B25EBAF006EDAC8 /* Resources */,
 				482C0BD02B25E0FA006EDAC8 /* RegisterMyInfo */,
 				482C0BCF2B25E0E4006EDAC8 /* Login */,
 				482C0BA52B25E027006EDAC8 /* ClubManagerApp.swift */,
-				482C0BA72B25E027006EDAC8 /* ContentView.swift */,
-				482C0BA92B25E02C006EDAC8 /* Assets.xcassets */,
 				482C0BAB2B25E02C006EDAC8 /* Preview Content */,
 			);
 			path = ClubManager;
@@ -175,6 +176,22 @@
 			children = (
 			);
 			path = RegisterMyInfo;
+			sourceTree = "<group>";
+		};
+		482C0BD62B25EBAF006EDAC8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				482C0BA92B25E02C006EDAC8 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		482C0BD72B25EBEA006EDAC8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				482C0BD82B25EBF9006EDAC8 /* Constant.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		A93DE957377335A61C85B52F /* Frameworks */ = {
@@ -426,8 +443,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				482C0BD42B25E19B006EDAC8 /* LoginView.swift in Sources */,
-				482C0BA82B25E027006EDAC8 /* ContentView.swift in Sources */,
 				482C0BA62B25E027006EDAC8 /* ClubManagerApp.swift in Sources */,
+				482C0BD92B25EBF9006EDAC8 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,7 +533,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -573,7 +590,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -594,12 +611,15 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ClubManager/Preview Content\"";
 				DEVELOPMENT_TEAM = K4Z8YS9YYL;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClubManager/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -624,12 +644,15 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ClubManager/Preview Content\"";
 				DEVELOPMENT_TEAM = K4Z8YS9YYL;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClubManager/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
